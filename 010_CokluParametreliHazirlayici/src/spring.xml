@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="ucgen" class="com.furkankara.Ucgen">
+	    <!-- <property name="yukseklik" value="25"/>   -->
+		
+	
+		
+		<!--  <constructor-arg name="cesit" value="ikiz kenar"/>
+		<constructor-arg name="yukseklik" value="61"/>
+		 -->
+		 
+		<constructor-arg type="String" value="Çeşit Kenar"/>
+		<constructor-arg type="int" value="74"/>
+		<constructor-arg type="double" value="11.9"/>
+		
+		
+		
+		<!--  De diyebiliriz bizim için spring yardımcı oluyor parametreleri anlamamız için.
+		<constructor-arg value="ikiz kenar"/>
+		<constructor-arg  value="61"/>
+		
+		 -->
+	</bean>
+
+	
+	
+	
+</beans>
